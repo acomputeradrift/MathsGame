@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7D6C7F552110F65100B46782 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6C7F542110F65100B46782 /* main.m */; };
+		7D6C7F612111131400B46782 /* AdditionQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6C7F602111131400B46782 /* AdditionQuestion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		7D6C7F512110F65100B46782 /* MathsGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MathsGame; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D6C7F542110F65100B46782 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D6C7F5F2111131400B46782 /* AdditionQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdditionQuestion.h; sourceTree = "<group>"; };
+		7D6C7F602111131400B46782 /* AdditionQuestion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdditionQuestion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		7D6C7F482110F65100B46782 = {
 			isa = PBXGroup;
 			children = (
+				7D6C7F5F2111131400B46782 /* AdditionQuestion.h */,
+				7D6C7F602111131400B46782 /* AdditionQuestion.m */,
 				7D6C7F532110F65100B46782 /* MathsGame */,
 				7D6C7F522110F65100B46782 /* Products */,
 			);
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D6C7F552110F65100B46782 /* main.m in Sources */,
+				7D6C7F612111131400B46782 /* AdditionQuestion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
