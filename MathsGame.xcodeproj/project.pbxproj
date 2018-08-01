@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		7D6C7F552110F65100B46782 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6C7F542110F65100B46782 /* main.m */; };
 		7D6C7F612111131400B46782 /* AdditionQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6C7F602111131400B46782 /* AdditionQuestion.m */; };
+		F13DE1B9211132F800C9CEE9 /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F13DE1B8211132F800C9CEE9 /* InputHandler.m */; };
+		F13DE1BC2111331000C9CEE9 /* scoreKeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = F13DE1BB2111331000C9CEE9 /* scoreKeeper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		7D6C7F542110F65100B46782 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7D6C7F5F2111131400B46782 /* AdditionQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdditionQuestion.h; sourceTree = "<group>"; };
 		7D6C7F602111131400B46782 /* AdditionQuestion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdditionQuestion.m; sourceTree = "<group>"; };
+		F13DE1B7211132F800C9CEE9 /* InputHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
+		F13DE1B8211132F800C9CEE9 /* InputHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
+		F13DE1BA2111331000C9CEE9 /* scoreKeeper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scoreKeeper.h; sourceTree = "<group>"; };
+		F13DE1BB2111331000C9CEE9 /* scoreKeeper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = scoreKeeper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +50,6 @@
 		7D6C7F482110F65100B46782 = {
 			isa = PBXGroup;
 			children = (
-				7D6C7F5F2111131400B46782 /* AdditionQuestion.h */,
-				7D6C7F602111131400B46782 /* AdditionQuestion.m */,
 				7D6C7F532110F65100B46782 /* MathsGame */,
 				7D6C7F522110F65100B46782 /* Products */,
 			);
@@ -62,7 +66,13 @@
 		7D6C7F532110F65100B46782 /* MathsGame */ = {
 			isa = PBXGroup;
 			children = (
+				F13DE1BA2111331000C9CEE9 /* scoreKeeper.h */,
+				F13DE1BB2111331000C9CEE9 /* scoreKeeper.m */,
+				7D6C7F5F2111131400B46782 /* AdditionQuestion.h */,
+				7D6C7F602111131400B46782 /* AdditionQuestion.m */,
 				7D6C7F542110F65100B46782 /* main.m */,
+				F13DE1B7211132F800C9CEE9 /* InputHandler.h */,
+				F13DE1B8211132F800C9CEE9 /* InputHandler.m */,
 			);
 			path = MathsGame;
 			sourceTree = "<group>";
@@ -124,7 +134,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F13DE1BC2111331000C9CEE9 /* scoreKeeper.m in Sources */,
 				7D6C7F552110F65100B46782 /* main.m in Sources */,
+				F13DE1B9211132F800C9CEE9 /* InputHandler.m in Sources */,
 				7D6C7F612111131400B46782 /* AdditionQuestion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +257,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -253,6 +266,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
