@@ -10,7 +10,7 @@
 		7D6C7F552110F65100B46782 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6C7F542110F65100B46782 /* main.m */; };
 		7D6C7F612111131400B46782 /* AdditionQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6C7F602111131400B46782 /* AdditionQuestion.m */; };
 		F13DE1B9211132F800C9CEE9 /* InputHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F13DE1B8211132F800C9CEE9 /* InputHandler.m */; };
-		F13DE1BC2111331000C9CEE9 /* scoreKeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = F13DE1BB2111331000C9CEE9 /* scoreKeeper.m */; };
+		F13DE1BF21113B8C00C9CEE9 /* ScoreKeeper.m in Sources */ = {isa = PBXBuildFile; fileRef = F13DE1BE21113B8C00C9CEE9 /* ScoreKeeper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,8 +32,8 @@
 		7D6C7F602111131400B46782 /* AdditionQuestion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdditionQuestion.m; sourceTree = "<group>"; };
 		F13DE1B7211132F800C9CEE9 /* InputHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
 		F13DE1B8211132F800C9CEE9 /* InputHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputHandler.m; sourceTree = "<group>"; };
-		F13DE1BA2111331000C9CEE9 /* scoreKeeper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scoreKeeper.h; sourceTree = "<group>"; };
-		F13DE1BB2111331000C9CEE9 /* scoreKeeper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = scoreKeeper.m; sourceTree = "<group>"; };
+		F13DE1BD21113B8C00C9CEE9 /* ScoreKeeper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScoreKeeper.h; sourceTree = "<group>"; };
+		F13DE1BE21113B8C00C9CEE9 /* ScoreKeeper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScoreKeeper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,11 +66,11 @@
 		7D6C7F532110F65100B46782 /* MathsGame */ = {
 			isa = PBXGroup;
 			children = (
-				F13DE1BA2111331000C9CEE9 /* scoreKeeper.h */,
-				F13DE1BB2111331000C9CEE9 /* scoreKeeper.m */,
 				7D6C7F5F2111131400B46782 /* AdditionQuestion.h */,
 				7D6C7F602111131400B46782 /* AdditionQuestion.m */,
 				7D6C7F542110F65100B46782 /* main.m */,
+				F13DE1BD21113B8C00C9CEE9 /* ScoreKeeper.h */,
+				F13DE1BE21113B8C00C9CEE9 /* ScoreKeeper.m */,
 				F13DE1B7211132F800C9CEE9 /* InputHandler.h */,
 				F13DE1B8211132F800C9CEE9 /* InputHandler.m */,
 			);
@@ -134,7 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F13DE1BC2111331000C9CEE9 /* scoreKeeper.m in Sources */,
+				F13DE1BF21113B8C00C9CEE9 /* ScoreKeeper.m in Sources */,
 				7D6C7F552110F65100B46782 /* main.m in Sources */,
 				F13DE1B9211132F800C9CEE9 /* InputHandler.m in Sources */,
 				7D6C7F612111131400B46782 /* AdditionQuestion.m in Sources */,

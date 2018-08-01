@@ -1,5 +1,5 @@
 //
-//  scoreKeeper.h
+//  ScoreKeeper.h
 //  MathsGame
 //
 //  Created by Nathan Wainwright on 2018-07-31.
@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface scoreKeeper : NSObject
+@interface ScoreKeeper : NSObject
 
 @end

@@ -10,4 +10,7 @@
 
 @interface InputHandler : NSObject
 
+- (NSString *) userInputForPrompt: (NSString *) prompt;
+
+
 @end
