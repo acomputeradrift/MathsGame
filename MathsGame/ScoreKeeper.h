@@ -10,4 +10,10 @@
 
 @interface ScoreKeeper : NSObject
 
+@property int rightTotal;
+@property int wrongTotal;
+
+- (void) scoreKeeper: (int) rightAnswers
+                    : (int) wrongAnswers;
+
 @end

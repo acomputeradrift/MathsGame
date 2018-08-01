@@ -10,4 +10,17 @@
 
 @implementation ScoreKeeper
 
+- (void) scoreKeeper: (int) rightAnswers
+                    : (int) wrongAnswers {
+    
+    int percent = 0;
+    
+    self.rightTotal = self.rightTotal + rightAnswers;
+    self.wrongTotal = self.wrongTotal + wrongAnswers;
+    
+    percent = 100 * ((float)self.rightTotal/(float)self.wrongTotal);
+    
+    NSLog(@"Score: %d right, %d wrong: Percent: %d", self.rightTotal, self.wrongTotal, percent);
+}
+
 @end

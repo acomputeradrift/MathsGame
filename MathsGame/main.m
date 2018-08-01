@@ -9,24 +9,22 @@
 #import <Foundation/Foundation.h>
 #import "AdditionQuestion.h"
 #import "InputHandler.h"
+#import "ScoreKeeper.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        
         BOOL gameOn = YES;
         
+        ScoreKeeper *testScore = [[ScoreKeeper alloc] init];
+
         while (gameOn == YES)
         {
             AdditionQuestion *addition = [[AdditionQuestion alloc] init];
             NSLog (@"%@", addition.question);
             
-            
-            // Please enter the answer (or type QUIT to exit): 
-        
             InputHandler *inputHandler = [[InputHandler alloc] init];
             
             NSString *userAnswerString = [inputHandler userInputForPrompt:@"Please enter the answer (or type QUIT to exit):"];
-            
             
             NSInteger userAnswer = [userAnswerString intValue];
             
@@ -36,9 +34,11 @@ int main(int argc, const char * argv[]) {
             }
             if (userAnswer == addition.answer) {
                 NSLog(@"Right!");
+                [testScore scoreKeeper:1 :0];
             }
             if (userAnswer != addition.answer) {
                 NSLog(@"Wrong!");
+                [testScore scoreKeeper:0 :1];
             }
             //creating a pointer to object           class               property
             //NSCharacterSet *whiteSpaceAndNewLine = NSCharacterSet.whitespaceAndNewlineCharacterSet;
